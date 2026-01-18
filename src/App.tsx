@@ -6,8 +6,11 @@ import './App.css'
 function App() {
   return (
     <div>
-      <h1>Hello,I’m Ishita Pan</h1>
-      <p>Java Backend Developer | React Learner</p>
+      <h1>ISHITA PAN</h1>
+      <h3>Pune, India panishita21@gmail.com (+91)9083767577 github.com/ishitapan</h3>
+      <p>summery</p>
+      <p>Backend engineer with 5 years’ experience in financial services, insurance, and e-commerce. Skilled in Java, Spring Boot, REST APIs,
+        microservices, system modernization, and cross-functional agile delivery.</p>
     </div>
   )
 }
