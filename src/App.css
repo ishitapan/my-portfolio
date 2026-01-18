@@ -1,42 +1,36 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* Custom Background Utility (The subtle grey dots/grid) */
+.main-bg {
+  background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)),
+    url('https://www.rammaheshwari.com/assets/svg/common-bg.svg');
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Smooth Scrolling for the whole page */
+html {
+  scroll-behavior: smooth;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Custom Typography - Matches his bold headers */
+h1,
+h2,
+h3 {
+  letter-spacing: 2px;
+  color: #111;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* Recreating the specific Button Shadow */
+button,
+.btn-custom {
+  transition: transform 0.3s;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
 
-.card {
-  padding: 2em;
+button:hover {
+  transform: translateY(-3px);
 }
 
-.read-the-docs {
-  color: #888;
+/* Input focus styles */
+input:focus,
+textarea:focus {
+  background-color: #fff;
+  border: 1px solid #0062b9;
 }

@@ -1,20 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import './App.css';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div>
-      <h1>ISHITA PAN</h1>
-      <h3>Pune, India panishita21@gmail.com (+91)9083767577 github.com/ishitapan</h3>
-      <p>summery</p>
-      <p>Backend engineer with 5 years’ experience in financial services, insurance, and e-commerce. Skilled in Java, Spring Boot, REST APIs,
-        microservices, system modernization, and cross-functional agile delivery.</p>
+    <div className="font-sans text-gray-800 bg-white">
+      <Navbar />
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default App
-
-
+export default App;
