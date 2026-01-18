@@ -6,7 +6,7 @@ import './App.css'
 function App() {
   return (
     <div>
-      <h1>I’m Ishita</h1>
+      <h1>Hello,I’m Ishita Pan</h1>
       <p>Java Backend Developer | React Learner</p>
     </div>
   )
