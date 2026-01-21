@@ -31,7 +31,7 @@ function Contact() {
 
         try {
             const response = await fetch(
-                'http://localhost:8080/api/contact',
+                'https://porfolio-backend-f2vp.onrender.com/api/contact',
                 {
                     method: 'POST',
                     headers: {
