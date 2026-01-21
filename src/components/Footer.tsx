@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <footer className="bg-gradient-to-r from-teal-500 to-teal-600 text-white pt-20 pb-10 px-8">
+        <footer className="bg-gradient-to-r from-teal-500 to-teal-600 text-white pt-20 pb-5 px-8 relative overflow-hidden">
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between border-b border-teal-400 pb-16">
                 <div className="md:w-1/2 mb-10 md:mb-0">
                     <h2 className="text-2xl font-bold uppercase mb-6 tracking-widest">Ishita Pan</h2>
@@ -35,6 +35,9 @@ const Footer = () => {
             <div className="text-center mt-10 text-[10px] text-teal-100 uppercase tracking-widest">
                 © Copyright 2024. Made by <span className="underline font-bold text-white">Ishita Pan</span>
             </div>
+            {/* Decorative background elements */}
+            <div className="absolute top-10 left-10 w-72 h-72 bg-teal-300 rounded-full mix-blend-screen filter blur-3xl opacity-30 animate-pulse"></div>
+            <div className="absolute bottom-10 right-10 w-72 h-72 bg-teal-700 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
         </footer>
     );
 };
