@@ -74,8 +74,8 @@ function Contact() {
                         onChange={handleChange}
                         required
                         className="w-full rounded-md border border-gray-300 dark:border-slate-600
-                       bg-white dark:bg-slate-800 p-3 text-sm
-                       focus:outline-none focus:ring-2 focus:ring-blue-500"
+                       bg-white dark:bg-slate-800 p-3 text-sm self-center
+                       focus:outline-none focus:ring-2 focus:ring-teal-500"
                     />
 
                     <input
@@ -105,9 +105,9 @@ function Contact() {
                     <button
                         type="submit"
                         disabled={loading}
-                        className="w-full rounded-md bg-blue-600 px-6 py-3
-                       text-white font-medium hover:bg-blue-700
-                       transition disabled:opacity-60"
+                        className="block mx-auto w-1/2 rounded-md bg-teal-600 px-6 py-3
+               text-white font-medium hover:bg-teal-700
+               transition disabled:opacity-60"
                     >
                         {loading ? 'Sending...' : 'Send Message'}
                     </button>
