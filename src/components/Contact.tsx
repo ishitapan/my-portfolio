@@ -55,8 +55,9 @@ function Contact() {
     }
 
     return (
-        <section id="contact" className="py-20">
-            <div className="max-w-xl mx-auto px-6">
+        <section id="contact" className="min-h-screen flex items-center justify-center py-16 px-4 bg-[url('https://www.rammaheshwari.com/assets/svg/common-bg.svg')] bg-cover bg-center">
+
+            <div className="max-w-2xl mx-auto bg-white p-20 rounded-lg shadow-2xl">
                 <h2 className="text-3xl font-bold mb-6">Contact Me</h2>
 
                 <p className="mb-8 text-gray-600 dark:text-gray-300">
